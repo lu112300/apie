@@ -1,0 +1,36 @@
+本地操作
+    .gitkeep   保持状态文件
+    .gitignore 过滤文件
+    git config --list
+    
+
+    git init 
+
+    git add .
+
+    git reset HEAD -- .
+
+    git commit -m "项目描述"
+
+    git log
+
+    git reflog (可以查询版本id)
+
+    git reset --hard id 回退版本ID
+
+远程操作
+    git remote add first https://github.com/lu112300/apie.git 
+    
+    ssh-keygen -t rsa -C "932105943@qq.com"
+    找到id_rsa.pud文件
+    (/Users/malulu/.ssh/id_rsa.pub)
+
+
+    git push -u 地址变量 分支名称
+
+
+    git clone 仓库地址(第一次)
+
+    git pull （后续同一个仓库拉取）
+
+
