@@ -33,4 +33,15 @@
 
     git pull （后续同一个仓库拉取）
 
-
+分支操作
+    新建分支：
+    git branch 分支名称
+    查看所有分支：
+    git branch
+    删除分支：
+    git branch -d 分支名称
+    切换分支：
+    git checkout 分支名称
+    合并分支：
+    git merge 分支名称
+    
